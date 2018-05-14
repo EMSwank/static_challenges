@@ -8,7 +8,7 @@
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "name-card name-card profile photo-billboard"
                        "experience education blog photo-billboard"
-                       "social-menu contact portfolio photo-billboard";
+                       "social-menu contact portfolio photo-billboar";
 }
 
 .name-card {
