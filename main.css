@@ -1,0 +1,49 @@
+.wrapper {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  justify-content: start;
+  align-content: center;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "name-card name-card profile photo-billboard"
+                       "experience education blog photo-billboard"
+                       "social-menu contact portfolio photo-billboard";
+}
+
+.name-card {
+  background-color: #35BC7A;
+}
+
+.profile {
+  background-color: #FF9C00;
+}
+
+.experience {
+  background-color: #218AC4;
+}
+
+.education {
+  background-color: #EE5B47;
+}
+
+.blog {
+  background-color: #35BC7A;
+}
+
+.social-menu {
+  background-color: #F86925;
+}
+
+.contact {
+  background-color: #218AC4;
+}
+
+.portfolio {
+  background-color: #F86925;
+}
+
+.photo-billboard {
+  height: 100%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2f/Bradley_Cooper_%283699322472%29_%28cropped%29.jpg")
+}
